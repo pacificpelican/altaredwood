@@ -7,15 +7,18 @@ import styled from 'styled-components';
 const Altaredwoodcontainer = styled.div`
   border-style: none;
   width: 94vw;
-  background-color: #e3eaf4;
   margin-left: 3vw;
   padding-left: 1vw;
-  border-radius: 5px;
+  border-radius: 15px;
+  backdrop-filter: blur(20px);  
+  -webkit-backdrop-filter: blur(10px);
 `;
 
 const Altaredwooda = styled.a`
   font-weight: bolder;
-  color: darkgreen;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-decoration: none;
 `;
 
 const Altaredwoodimg = styled.img`
@@ -34,6 +37,18 @@ const Partnerdiv = styled.section`
   padding-left: 3vw;
 `;
 
+const Altaredwoodh1 = styled.h1`
+  font-size: 30px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+`;
+
+const Altaredwoodh2 = styled.h2`
+  font-size: 26px;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+`;
+
 // const Altaredwoodimgmini = Altaredwoodimg`
 
 // `;
@@ -43,8 +58,8 @@ class App extends Component {
     return (
       <Altaredwoodcontainer>
         <header className="App-header">
-          <h1 className="App-title">Alta Redwood</h1>
-          <h2 className="App-description">Wellness and Technology Services</h2>
+          <Altaredwoodh1 className="App-title">Alta Redwood</Altaredwoodh1>
+          <Altaredwoodh2 className="App-description">Wellness and Technology Services</Altaredwoodh2>
         </header>
         <Partnersection>
           <Partnerdiv>
