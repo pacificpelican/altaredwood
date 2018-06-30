@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
-import styled from 'styled-components';
+import styled from "styled-components";
 
 const Altaredwoodcontainer = styled.div`
   border-style: none;
@@ -10,7 +9,7 @@ const Altaredwoodcontainer = styled.div`
   margin-left: 3vw;
   padding-left: 1vw;
   border-radius: 15px;
-  backdrop-filter: blur(20px);  
+  backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(10px);
 `;
 
@@ -59,30 +58,47 @@ class App extends Component {
       <Altaredwoodcontainer>
         <header className="App-header">
           <Altaredwoodh1 className="App-title">Alta Redwood</Altaredwoodh1>
-          <Altaredwoodh2 className="App-description">Wellness and Technology Services</Altaredwoodh2>
+          <Altaredwoodh2 className="App-description">
+            Wellness and Technology Services
+          </Altaredwoodh2>
         </header>
         <Partnersection>
           <Partnerdiv>
-            <h3 className="partnerh1"><Altaredwooda href="http://jessmckeown.com">Jess McKeown</Altaredwooda></h3>
+            <h3 className="partnerh1">
+              <Altaredwooda href="http://jessmckeown.com">
+                Jess McKeown
+              </Altaredwooda>
+            </h3>
             <span className="av">
               <Altaredwooda href="http://jessmckeown.com">
-                <Altaredwoodimg src="http://jessmckeown.com/static/media/JessicaMcKeown_Headshot-Edit-2.4d2839e9.jpg" alt="jess" id="jdc-img" />
+                <Altaredwoodimg
+                  src="http://jessmckeown.com/static/media/JessicaMcKeown_Headshot-Edit-2.4d2839e9.jpg"
+                  alt="jess"
+                  id="jdc-img"
+                />
               </Altaredwooda>
             </span>
           </Partnerdiv>
-          
+
           <Partnerdiv>
-            <h3 className="partnerh1"><Altaredwooda href="http://danmckeown.info">Dan McKeown</Altaredwooda></h3>
+            <h3 className="partnerh1">
+              <Altaredwooda href="http://danmckeown.info">
+                Dan McKeown
+              </Altaredwooda>
+            </h3>
             <span className="av">
               <Altaredwooda href="http://danmckeown.info">
-                <Altaredwoodimg src="https://djmblog.com/assets/files/DJM-June-2018.jpg" alt="dan" id="djm-img" />
+                <Altaredwoodimg
+                  src="https://djmblog.com/assets/files/DJM-June-2018.jpg"
+                  alt="dan"
+                  id="djm-img"
+                />
               </Altaredwooda>
             </span>
           </Partnerdiv>
-    
         </Partnersection>
         <footer>
-            copyright 2018 <a href="http://altaredwood.work">altaredwood.work</a>
+          copyright 2018 <a href="http://altaredwood.work">altaredwood.work</a>
         </footer>
       </Altaredwoodcontainer>
     );
