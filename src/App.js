@@ -3,6 +3,9 @@ import "./App.css";
 
 import styled from "styled-components";
 
+import djmImg from './DJM-June-2018-1600w.jpg';
+import jdcmImg from './JessicaMcKeown_Headshot-Edit-2-4d2839e9-1600w.jpg';
+
 const Altaredwoodcontainer = styled.div`
   border-style: none;
   width: 94vw;
@@ -72,7 +75,7 @@ class App extends Component {
             <span className="av">
               <Altaredwooda href="http://jessmckeown.com">
                 <Altaredwoodimg
-                  src="http://jessmckeown.com/static/media/JessicaMcKeown_Headshot-Edit-2.4d2839e9.jpg"
+                  src={jdcmImg}
                   alt="jess"
                   id="jdc-img"
                 />
@@ -89,7 +92,7 @@ class App extends Component {
             <span className="av">
               <Altaredwooda href="http://danmckeown.info">
                 <Altaredwoodimg
-                  src="https://djmblog.com/assets/files/DJM-June-2018.jpg"
+                  src={djmImg}
                   alt="dan"
                   id="djm-img"
                 />
