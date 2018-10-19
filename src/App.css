@@ -1,3 +1,9 @@
 body {
-  background-image: url("https://djmblog.com/assets/files/casey-horner-446959-unsplash.jpg");
+  background-image: url("redwood.jpeg");
+}
+
+footer, footer a {
+  color: gray;
+  font-family: "Hack", "Fira Code", "Anonymous Pro", Menlo, monospace;
+  font-size: 0.8rem;
 }

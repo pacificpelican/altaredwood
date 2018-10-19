@@ -5,6 +5,7 @@ import styled from "styled-components";
 
 import djmImg from './DJM-June-2018-1600w.jpg';
 import jdcmImg from './JessicaMcKeown_Headshot-Edit-2-4d2839e9-1600w.jpg';
+import newdjmImg from './Dan-aboard-by-Jessica-2018-Edit.jpg';
 
 const Altaredwoodcontainer = styled.div`
   border-style: none;
@@ -26,6 +27,11 @@ const Altaredwooda = styled.a`
 const Altaredwoodimg = styled.img`
   height: auto; /* Make sure images are scaled correctly. */
   max-width: calc(25vw + 4em);
+`;
+
+const Altaredwoodimadjusted = styled.img`
+  height: auto; /* Make sure images are scaled correctly. */
+  max-width: calc(27vw + 3.7em);
 `;
 
 const Partnersection = styled.section`
@@ -91,8 +97,8 @@ class App extends Component {
             </h3>
             <span className="av">
               <Altaredwooda href="http://danmckeown.info">
-                <Altaredwoodimg
-                  src={djmImg}
+                <Altaredwoodimadjusted
+                  src={newdjmImg}
                   alt="dan"
                   id="djm-img"
                 />
