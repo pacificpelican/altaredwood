@@ -1,6 +1,6 @@
 **[AltaRedwood.work](http://altaredwood.work)**
 
-- Alta Redwood home page, created June 2018
+- Alta Redwood home page, created June 2018, updated October 2018
 - from [Jess McKeown](http://jessmckeown.com) & [Dan McKeown](http://danmckeown.info)
 
 ****
