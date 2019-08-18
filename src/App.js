@@ -3,9 +3,8 @@ import "./App.css";
 
 import styled from "styled-components";
 
-import djmImg from './DJM-June-2018-1600w.jpg';
 import jdcmImg from './JessicaMcKeown_Headshot-Edit-2-4d2839e9-1600w.jpg';
-import newdjmImg from './Dan-aboard-by-Jessica-2018-Edit.jpg';
+import newdjmImg from './Dan-Mango-2019.jpg';
 
 const Altaredwoodcontainer = styled.div`
   border-style: none;
