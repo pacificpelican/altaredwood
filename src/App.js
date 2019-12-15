@@ -4,7 +4,7 @@ import "./App.css";
 import styled from "styled-components";
 
 import jdcmImg from './JessicaMcKeown_Headshot-Edit-2-4d2839e9-1600w.jpg';
-import newdjmImg from './Dan-Mango-2019.jpg';
+import newdjmImg from './DanMcKeownNov2019byJessMcKeownv2.jpg';
 
 const Altaredwoodcontainer = styled.div`
   border-style: none;
@@ -73,12 +73,12 @@ class App extends Component {
         <Partnersection>
           <Partnerdiv>
             <h3 className="partnerh1">
-              <Altaredwooda href="http://jessmckeown.com">
+              <Altaredwooda href="https://jessmckeown.com">
                 Jess McKeown
               </Altaredwooda>
             </h3>
             <span className="av">
-              <Altaredwooda href="http://jessmckeown.com">
+              <Altaredwooda href="https://jessmckeown.com">
                 <Altaredwoodimg
                   src={jdcmImg}
                   alt="jess"
@@ -90,12 +90,12 @@ class App extends Component {
 
           <Partnerdiv>
             <h3 className="partnerh1">
-              <Altaredwooda href="http://danmckeown.info">
+              <Altaredwooda href="https://pacificio.com">
                 Dan McKeown
               </Altaredwooda>
             </h3>
             <span className="av">
-              <Altaredwooda href="http://danmckeown.info">
+              <Altaredwooda href="https://pacificio.com">
                 <Altaredwoodimadjusted
                   src={newdjmImg}
                   alt="dan"
@@ -106,7 +106,7 @@ class App extends Component {
           </Partnerdiv>
         </Partnersection>
         <footer>
-          copyright 2018 <a href="http://altaredwood.work">altaredwood.work</a>
+          copyright 2018-2019 <a href="https://altaredwood.work">altaredwood.work</a>
         </footer>
       </Altaredwoodcontainer>
     );
