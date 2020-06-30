@@ -1,6 +1,8 @@
-**[AltaRedwood.work](http://altaredwood.work)**
+# **[AltaRedwood.work](https://altaredwood.work)**
 
-- Alta Redwood home page, created June 2018, updated October 2018
+## *🚚📦📦This version of the project is depreacted: The repo has moved, the new one is here: [https://github.com/pacificpelican/alta-redwood-work](https://github.com/pacificpelican/alta-redwood-work)*
+
+- Alta Redwood home page, created June 2018, updated October 2018, deprecated June 2020
 - from [Jess McKeown](http://jessmckeown.com) & [Dan McKeown](http://danmckeown.info)
 
 ****
